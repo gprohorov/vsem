@@ -1,4 +1,4 @@
-package pro.edu.modele1;
+package pro.edu.module1;
 /*
   @author   george
   @project   vsem
@@ -6,8 +6,6 @@ package pro.edu.modele1;
   @version  1.0.0 
   @since 08.03.2021 - 18.14
 */
-
-import java.util.Locale;
 
 public class Palindrom {
 

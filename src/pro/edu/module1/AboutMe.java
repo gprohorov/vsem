@@ -1,4 +1,4 @@
-package pro.edu.modele1;
+package pro.edu.module1;
 /*
   @author   george
   @project   vsem
