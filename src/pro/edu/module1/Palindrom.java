@@ -1,11 +1,11 @@
 package pro.edu.module1;
-/*
+/**
   @author   george
   @project   vsem
   @class  Palindrom
   @version  1.0.0 
   @since 08.03.2021 - 18.14
-*/
+**/
 
 public class Palindrom {
 
