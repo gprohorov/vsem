@@ -63,3 +63,30 @@ public class Harry {
 
     }
 }
+/*
+*
+* 'Alohomora
+'Atta
+'Cause
+'Course
+'Dumbledore
+'Harry's
+'Jordan
+'Mr
+'NMat
+'Oh
+'Pig
+'Quiddit
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+* */
