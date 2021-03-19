@@ -7,6 +7,7 @@ package pro.edu.module2.design;
   @since 17.03.2021 - 19.32
 */
 
+import java.time.LocalDate;
 import java.util.Objects;
 
 public class Rectangle {
@@ -22,10 +23,12 @@ public class Rectangle {
     }
 
     public int getLength() {
+        // logic
         return length;
     }
 
     public void setLength(int length) {
+        // logic
         this.length = length;
     }
 
@@ -34,7 +37,7 @@ public class Rectangle {
     }
 
     public void setWidth(int width) {
-        this.width = width;
+        this.width = (width >= 0) ? width : 0;
     }
 
     @Override

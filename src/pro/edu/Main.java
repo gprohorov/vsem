@@ -11,6 +11,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(" Hello vsem!");
         int length = 3;
+        Integer length2 = 3;
+        String str = "12345";
+        length2 = Integer.valueOf(str);
         int width = 4;
         int area = length * width;
         System.out.println(area);
@@ -22,7 +25,7 @@ public class Main {
         int l1 = r1.getLength();
         System.out.println(l1);
         r2.setLength(16);
-        r2.setWidth(7);
+        r2.setWidth(-7);
         System.out.println(r2);
 
         Rectangle r3 = new Rectangle(15,7);
@@ -30,6 +33,9 @@ public class Main {
         System.out.println(r2.hashCode());
         System.out.println(r3.hashCode());
         System.out.println(r1.getArea());
+        r1.setWidth(-9);
+        System.out.println(r1);
+
 
     }
 }
