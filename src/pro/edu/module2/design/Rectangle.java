@@ -60,7 +60,8 @@ public class Rectangle {
                 ", width = " + width +
                 '}';
     }
-    public int getArea(){
+
+    public int getArea() {
         return this.getWidth() * this.getLength();
     }
 

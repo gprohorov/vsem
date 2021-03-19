@@ -1,6 +1,7 @@
 package pro.edu;
 
 import pro.edu.module2.design.Rectangle;
+import pro.edu.module2.inheritance.Wall;
 
 public class Main {
 
@@ -35,6 +36,9 @@ public class Main {
         System.out.println(r1.getArea());
         r1.setWidth(-9);
         System.out.println(r1);
+
+        Wall w1 = new Wall(4,3,"Green", true, true);
+        w1.setWidth(4);
 
 
     }
