@@ -1,7 +1,11 @@
 package pro.edu;
 
+import pro.edu.module2.design.Person;
 import pro.edu.module2.design.Rectangle;
 import pro.edu.module2.inheritance.Wall;
+
+import java.time.LocalDate;
+import java.time.Month;
 
 public class Main {
 
@@ -39,6 +43,14 @@ public class Main {
 
         Wall w1 = new Wall(4,3,"Green", true, true);
         w1.setWidth(4);
+
+        Person britneySpears = new Person("Britney",
+                " Ivanovna",
+                "Spears",
+                LocalDate.of(1985, Month.FEBRUARY, 12)
+                );
+        System.out.println(britneySpears.getAge());
+        System.out.println(britneySpears.isAdult());
 
 
     }
