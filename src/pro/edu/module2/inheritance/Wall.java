@@ -68,6 +68,11 @@ public class Wall extends Rectangle {
                 '}';
     }
 
+    @Override
+    public double getDiagonal() {
+        return 0;
+    }
+
     public void toConsole(){
         System.out.println(super.toString());
         System.out.println(this.toString());

@@ -12,4 +12,13 @@ public class Person {
     private String lastName;
     private String patronynicName;
     private String Address;
+    private MaritalStatus status;
+
+    public Person(String firstName, String lastName, String patronynicName, String address, MaritalStatus status) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.patronynicName = patronynicName;
+        Address = address;
+        this.status = status;
+    }
 }

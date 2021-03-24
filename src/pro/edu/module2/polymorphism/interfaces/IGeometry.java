@@ -8,7 +8,8 @@ package pro.edu.module2.polymorphism.interfaces;
 */
 
 public interface IGeometry {
-    public double getPerimeter();  // 3Х ОПРЕДЕЛЕНИЙ -  тип возвращает   - название метода   - параметры
+                                    //  счигнатура метода
+    public double getPerimeter();  //из  3Х ОПРЕДЕЛЕНИЙ -  тип возвращает   - название метода   - параметры
     public double getArea();
 
 }

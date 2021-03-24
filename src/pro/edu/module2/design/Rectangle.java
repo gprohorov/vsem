@@ -10,7 +10,7 @@ package pro.edu.module2.design;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Rectangle {
+public abstract class Rectangle  {
     private int length;
     private int width;
 
@@ -64,5 +64,6 @@ public class Rectangle {
     public int getArea() {
         return this.getWidth() * this.getLength();
     }
+    public abstract double getDiagonal();
 
 }

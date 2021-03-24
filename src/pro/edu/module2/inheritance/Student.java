@@ -13,4 +13,7 @@ public class Student extends Person{
     private String department;
     private boolean isStipendiat;  //  has a scolarship
 
+    public Student(String firstName, String lastName, String patronynicName, String address, MaritalStatus status) {
+        super(firstName, lastName, patronynicName, address, status);
+    }
 }
