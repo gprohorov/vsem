@@ -3,6 +3,7 @@ package pro.edu;
 import pro.edu.module2.design.Person;
 import pro.edu.module2.design.Rectangle;
 import pro.edu.module2.inheritance.Wall;
+import pro.edu.module2.polymorphism.Rectangle2;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -51,6 +52,9 @@ public class Main {
                 );
         System.out.println(britneySpears.getAge());
         System.out.println(britneySpears.isAdult());
+        Rectangle2 rec2 = new Rectangle2(3,4);
+        System.out.println(rec2.toJSON());
+        System.out.println(rec2.toXML());
 
 
     }
