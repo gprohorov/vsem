@@ -14,6 +14,8 @@ import pro.edu.module2.polymorphism.interfaces.IGeometry;
 
 import java.time.LocalDate;
 import java.time.Month;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -92,7 +94,11 @@ public class Main {
         Person john = new Person("John","Lennon",
                 "Ivanovich", "Lobdon Town", MaritalStatus.MARRIED);
 
-        IGeometry cube = FigureFactory.create(3, Figures.CUBE);
+        IGeometry cube = (Cube) FigureFactory.create(3, Figures.CUBE);
+
+        List<IGeometry> list = new ArrayList<>();
+        list.add(cube);
+       
 
     }
 }

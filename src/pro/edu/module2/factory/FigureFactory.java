@@ -13,8 +13,9 @@ import pro.edu.module2.design.Triangle;
 import pro.edu.module2.polymorphism.interfaces.IGeometry;
 
 public class FigureFactory {
-    public static IGeometry create(int length, int width){
 
+
+    public static IGeometry create(int length, int width){
         if (length == width) {
             return new Quadrat(length);
         }
