@@ -21,4 +21,7 @@ public class Person {
         Address = address;
         this.status = status;
     }
+
+    public Person() {
+    }
 }

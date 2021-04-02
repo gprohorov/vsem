@@ -98,7 +98,11 @@ public class Main {
 
         List<IGeometry> list = new ArrayList<>();
         list.add(cube);
-       
+
+        // cohesion
+
+        Person p1 = new Person();
+        Bachelor b1 = new Bachelor(p1," 543"," SE", "CS",true);
 
     }
 }
